@@ -40,7 +40,7 @@ namespace CustomListTest
 
             int sum = numbers.Count;
 
-            Assert.AreEqual(ListCount + 1, sum);
+            Assert.AreEqual(ListCount + 5, sum);
 
         }
 
