@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomList", "CustomList\CustomList.csproj", "{27F0F1D2-537A-4B0E-B774-485A7EA9DA83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomListTest", "CustomListTest\CustomListTest.csproj", "{CCED4FB9-6AE4-434A-AD55-C23808265D9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27F0F1D2-537A-4B0E-B774-485A7EA9DA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F0F1D2-537A-4B0E-B774-485A7EA9DA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F0F1D2-537A-4B0E-B774-485A7EA9DA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCED4FB9-6AE4-434A-AD55-C23808265D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCED4FB9-6AE4-434A-AD55-C23808265D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCED4FB9-6AE4-434A-AD55-C23808265D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCED4FB9-6AE4-434A-AD55-C23808265D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
