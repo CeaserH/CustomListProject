@@ -8,16 +8,39 @@ namespace CustomListTest
     {
         [TestMethod]
 
-        public void AddOne()
+        public void AddOneItemToList()
         {
 
-            int NumOne = 1;
-            int NumTwo = 5;
+            CustomList<int> numbers = new CustomList<int>();
+
+            int ListCount = numbers.Count;
+
+            numbers.Add(1);
+
+            int sum = numbers.Count;
+
+            Assert.AreEqual(ListCount + 1, sum);
+
+        }
+
+        public void AddFiveItemsToList()
+        {
 
             CustomList<int> numbers = new CustomList<int>();
-            int sum = numbers.Add(NumOne, NumTwo);
 
-            Assert.AreEqual(6, sum);
+            int ListCount = numbers.Count;
+
+
+            numbers.Add(1);
+            numbers.Add(2);
+            numbers.Add(3);
+            numbers.Add(4);
+            numbers.Add(5);
+
+
+            int sum = numbers.Count;
+
+            Assert.AreEqual(ListCount + 1, sum);
 
         }
 
